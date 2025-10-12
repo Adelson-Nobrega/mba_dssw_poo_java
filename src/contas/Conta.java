@@ -34,9 +34,9 @@ public class Conta {
     @Override
     public String toString() {
         return "Conta {\n" +
-                "  Número : " + numero + "\n" +
-                "  Nome   : " + nome + "\n" +
-                "  Saldo  : " + saldo + "\n" +
+                "  Número: " + numero + "\n" +
+                "  Nome  : " + nome + "\n" +
+                "  Saldo : " + saldo + "\n" +
                 "}\nSomos felizes!";
     }
 

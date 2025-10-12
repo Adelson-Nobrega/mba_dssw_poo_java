@@ -12,7 +12,7 @@ public class ContaInvest extends Conta {
 
     @Override
     public boolean sacar(double valor) {
-        System.out.println("Você está sacando de sua Conta Investimento!");
+        System.out.println("Você está sacando em sua Conta Investimento!");
         return super.sacar(valor);
     }
 
