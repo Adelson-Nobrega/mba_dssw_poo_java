@@ -1,9 +1,9 @@
 package contas;
 
 public class Conta {
-    public int numero;
-    public String nome;
-    public double saldo;
+    private int numero;
+    private String nome;
+    private double saldo;
 
     public Conta(int numero, String nome) {
         this.numero = numero;
@@ -27,8 +27,12 @@ public class Conta {
         return true;
     }
 
-    public Double gerSaldo() {
+    public double getSaldo() {
         return this.saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
     }
 
     @Override

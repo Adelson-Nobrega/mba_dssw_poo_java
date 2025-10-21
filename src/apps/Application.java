@@ -5,7 +5,7 @@ import contas.ContaEspecial;
 import contas.ContaInvest;
 
 public class Application {
-    public static void main(String[] args) {
+    static void main() {
 
         Conta conta01 = new Conta(01, "Adelson");
         ContaEspecial contaEsp01 = new ContaEspecial(02, "Paloma", 10000);

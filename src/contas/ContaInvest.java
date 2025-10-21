@@ -23,7 +23,7 @@ public class ContaInvest extends Conta {
     }
 
     public void aplicarRendimento() {
-        this.saldo *= Math.pow((1 + this.taxa/100), this.prazo);
-        System.out.println("Seu saldo com o rendimento aplicado é: " + this.saldo);
+        setSaldo(getSaldo() * Math.pow((1 + this.taxa/100), this.prazo));
+        System.out.println("Seu saldo com o rendimento aplicado é: " + getSaldo());
     }
 }
