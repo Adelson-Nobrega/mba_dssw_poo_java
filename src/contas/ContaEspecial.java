@@ -26,4 +26,8 @@ public class ContaEspecial extends Conta {
             return true;
         }
     }
+
+    public double getLimite() {
+        return this.limite;
+    }
 }

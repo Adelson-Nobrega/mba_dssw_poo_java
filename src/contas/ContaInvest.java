@@ -16,14 +16,8 @@ public class ContaInvest extends Conta {
         return super.sacar(valor);
     }
 
-    @Override
-    public boolean depositar(double valor) {
-        System.out.println("Você está depositando em sua Conta Investimento!");
-        return super.depositar(valor);
-    }
-
     public void aplicarRendimento() {
         setSaldo(getSaldo() * Math.pow((1 + this.taxa/100), this.prazo));
-        System.out.println("Seu saldo com o rendimento aplicado é: " + getSaldo());
+        System.out.println("Seu saldo com o rendimento aplicado é: R$ " + getSaldo());
     }
 }

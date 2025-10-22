@@ -1,8 +1,8 @@
 package contas;
 
 public class Conta {
-    private int numero;
-    private String nome;
+    public int numero;
+    public String nome;
     private double saldo;
 
     public Conta(int numero, String nome) {
@@ -41,7 +41,7 @@ public class Conta {
                 "  Número: " + numero + "\n" +
                 "  Nome  : " + nome + "\n" +
                 "  Saldo : " + saldo + "\n" +
-                "}\nSomos felizes!";
+                "}\nVem pra Caixa você também!\n";
     }
 
 }
