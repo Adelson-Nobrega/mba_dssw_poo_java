@@ -29,9 +29,9 @@ public class Application {
             System.out.println("Valor inválido!");
         }
 
-        System.out.println(conta01.toString());
-        System.out.println(contaEsp01.toString());
-        System.out.println(contaInvest01.toString());
+        System.out.println(conta01);
+        System.out.println(contaEsp01);
+        System.out.println(contaInvest01);
 
         contaInvest01.aplicarRendimento();
         contaEsp01.sacar(2000);
