@@ -1,8 +1,8 @@
 package contas;
 
 public class ContaInvest extends Conta {
-    public double taxa;
-    public int prazo;
+    private final double taxa;
+    private final int prazo;
 
     public ContaInvest(int numero, String nome, double taxa, int prazo) {
         super(numero, nome);

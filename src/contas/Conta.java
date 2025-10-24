@@ -3,7 +3,7 @@ package contas;
 public class Conta {
     public int numero;
     public String nome;
-    private double saldo;
+    protected double saldo;
 
     public Conta(int numero, String nome) {
         this.numero = numero;
