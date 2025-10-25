@@ -45,8 +45,3 @@ public class Conta {
     }
 
 }
-//Façam um saque e cada uma das contas, e imprima
-// o novo saldo (apenas) de cada uma delas
-//Criem o depositar e utilize m cada uma das contas,
-// e imprima o novo saldo (apenas) de cada uma delas
-
