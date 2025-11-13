@@ -1,7 +1,6 @@
 package apps;
 
-import auxiliares.Endereco;
-import auxiliares.Telefone;
+import auxiliares.*;
 import pessoas.Pessoa;
 
 public class Application {
