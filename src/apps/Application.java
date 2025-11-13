@@ -1,8 +1,6 @@
 package apps;
 
-import contas.Conta;
-import contas.ContaEspecial;
-import contas.ContaInvest;
+import contas.*;
 
 public class Application {
     static void main() {
