@@ -4,12 +4,14 @@ import auxiliares.Endereco;
 import auxiliares.Telefone;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Pessoa {
     protected String nome;
     protected LocalDate dataNascimento;
     protected Endereco endereco;
-    protected Telefone telsContato;
+    protected List<Telefone> telsContato = new ArrayList<>();
 
     public int obterIdade() {
         LocalDate dataAtual = LocalDate.now();
@@ -40,11 +42,9 @@ public class Pessoa {
         this.endereco = endereco;
     }
 
-    public Telefone getTelsContato() {
-        return telsContato;
-    }
+    public List<Telefone> getTelsContato() { return telsContato; }
 
-    public void setTelsContato(Telefone telefone) {
-        this.telsContato = telefone;
+    public void adicionarTelefone(Telefone telefone) {
+        this.telsContato.add(telefone);
     }
 }
